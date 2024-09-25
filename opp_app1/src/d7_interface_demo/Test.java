@@ -2,6 +2,9 @@ package d7_interface_demo;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        ClassManger classManger = new ClassManger();
+        classManger.printScore();
+        classManger.printInfo();
+
     }
 }
