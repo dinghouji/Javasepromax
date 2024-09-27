@@ -5,4 +5,10 @@ public class Test {
 
 
     }
+
+    public static class d9_enum {
+        public static void main(String[] args) {
+
+        }
+    }
 }
