@@ -6,6 +6,9 @@ public class Test1 {
     public static void main(String[] args) {
         int arr[] = {11 ,22 ,33};
         System.out.println(getData(arr));
+        Runtime runtime = Runtime.getRuntime();
+        int r = runtime.availableProcessors();
+        System.out.println(r);
     }
 
     public static String getData(int arr[]){
@@ -15,5 +18,7 @@ public class Test1 {
         }
         return sj.toString();
     }
+
+
 
 }
